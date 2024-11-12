@@ -61,7 +61,7 @@ After completing the setup, execute the script. It will open Chrome, log in to T
 ## Important Notes
 
 - Twitter may detect automation, which could result in login failure or trigger security checks. You may need to modify the script or adjust your approach if Twitter flags automated logins.
-
-## License
-
-This project is licensed under the MIT License.
+- Also if twitter update to x.com, you may need to modify the script of below part.
+```bash
+driver.get('https://twitter.com/i/flow/login') 
+driver.get('https://x.com/i/flow/login')
