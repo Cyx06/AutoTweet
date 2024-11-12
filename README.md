@@ -32,10 +32,6 @@ This script opens the Twitter login page in a Chrome browser, enters the user's 
    ```bash
    pip install selenium beautifulsoup4
 
-# Twitter Automation Script
-
-This Python script automates the login and tweet posting process on Twitter using Selenium.
-
 ## Setup
 
 ### 1. Configure ChromeDriver
