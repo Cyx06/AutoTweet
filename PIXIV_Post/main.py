@@ -81,13 +81,13 @@ sleep(2.2)
 
 # Enter title
 titleInput = driver.find_element(By.CSS_SELECTOR, 'input[name="title"]')
-titleInput.send_keys('testing_title')
+titleInput.send_keys('IMAGE_TITLE')    # Enter the title of the post to upload
 print('Title entered')
 sleep(2.2)
 
 # Enter comment
 textInput = driver.find_element(By.CSS_SELECTOR, 'textarea[name="comment"]')
-textInput.send_keys('testing_comment')
+textInput.send_keys('IMAGE_COMMENT')   # Enter the comment of the post to upload
 print('Comment entered')
 sleep(2.2)
 
@@ -119,5 +119,5 @@ sleep(2.2)
 sleep(5)
 buttons = driver.find_elements(By.LINK_TEXT, "發佈")
 # Uncomment the next line to enable clicking the publish button
-# buttons.click()
+buttons.click()
 

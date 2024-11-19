@@ -1,4 +1,4 @@
-# AutoTweet
+# Twitter_brow_Tweet
 
 This script opens the Twitter login page in a Chrome browser, enters the user's email, username, and password in sequence, and then publishes a tweet after logging in. It simulates user actions like filling in login details, uploading an image, and clicking buttons.
 
